@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>YJA Form Submission App</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Form was obtained from online source. Production version would use YJA form templates -->
+    <!-- Source: https://www.sanwebe.com/2014/08/css-html-forms-designs -->
+    <div class="form-style-5">
+      <!--<form id="regForm" action="https://jains.localtunnel.me/forms" method="post">-->
+      <form id="regForm">
+        <fieldset>
+          <legend>YJA Sample Event Registration Form</legend>
+          <legend><span class="number">1</span> Personal Info</legend>
+          <input type="text" id="name" placeholder="Name *">
+          <input type="text" id="birthdate" placeholder="Date of Birth *">
+          <input type="text" id="phone" placeholder="Phone Number *">
+          <input type="email" id="email" placeholder="Email *">
+          <input type="text" id="address" placeholder="Address *">
+          <input type="text" id="city" placeholder="City *">
+          <input type="text" id="state" placeholder="State *">
+          <input type="text" id="zip" placeholder="Zipcode *">
+          <input type="text" id="center" placeholder="Jain Center">
+          <legend><span class="number">2</span> Dietary Preferences</legend>
+          <select id="diet" name="diet">
+            <option value="vegan">Vegan</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="jain">Jain</option>
+          </select>
+          <legend><span class="number">3</span> Other</legend>
+          <input type="text" id="needs" placeholder="Special Needs">
+          </fieldset>
+      <input id="button" type="submit" value="Register" />
+      </form>
+    </div>
+
+  </body>
+  <footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </footer>
+</html>
